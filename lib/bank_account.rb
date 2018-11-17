@@ -6,7 +6,10 @@ class BankAccount
     @name = name
     @balance = 1000
     @status = "open"
+    amount = 0
   end
 
-  def self.
+  def self.deposit(num)
+    amount + num
+  end
 end
