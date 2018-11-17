@@ -1,7 +1,11 @@
 class Transfer
-  attr_accessor :sender, :name, :balance, :status
+  attr_accessor :name, :balance, :status
   
   def initialize(name, num, c)
+    
+  end
+  
+  def sender
     
   end
 end
