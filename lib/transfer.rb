@@ -6,9 +6,6 @@ class Transfer
   end
   
   def sender
-    @name = name
-    @balance = 1000
-    @status = "open"
-    self
+    bank_account.naw("name")
   end
 end
