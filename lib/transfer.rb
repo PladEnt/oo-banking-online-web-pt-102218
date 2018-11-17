@@ -6,6 +6,6 @@ class Transfer
   end
   
   def sender
-    new = BankAccount.new("")
+    new = BankAccount.new("amanda")
   end
 end
