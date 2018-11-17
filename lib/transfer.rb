@@ -1,3 +1,3 @@
 class Transfer
-  # your code here
+  def initialize(a, b, c)
 end
