@@ -1,7 +1,7 @@
 class Transfer
-  attr_accessor :sender
+  attr_accessor :sender, :name, :balance, :status
   
-  def initialize(a, b, c)
+  def initialize(name, num, c)
     @name = name
     @balance = 1000
     @status = "open"
