@@ -9,7 +9,7 @@ class BankAccount
     amount = 0
   end
 
-  def self.deposit(num)
+  def deposit(num)
     amount + num
   end
 end
