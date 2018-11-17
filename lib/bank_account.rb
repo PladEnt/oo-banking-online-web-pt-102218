@@ -6,6 +6,6 @@ class BankAccount
   end
 
   def balance
-  
+    
   end
 end
