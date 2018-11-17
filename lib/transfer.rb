@@ -6,6 +6,6 @@ class Transfer
   end
   
   def sender
-    bank_account.naw("name")
+    new = bank_account.naw("name")
   end
 end
