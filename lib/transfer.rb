@@ -5,7 +5,7 @@ class Transfer
     
   end
   
-  def sender(name)
+  def sender
     @name = name
     @balance = 1000
     @status = "open"
